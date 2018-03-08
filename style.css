@@ -1,0 +1,24 @@
+
+
+.headerRow {
+    background-color: silver;
+}
+.page-header {
+    background-color: crimson;
+    height: 32px;
+    border: 6px solid gray;
+    color: white;
+
+}
+.aboutMe {
+    text-align: justify;
+    background-color: silver;
+}
+h1 {
+    font-weight: bold;
+
+}
+.contactInfo {
+    background-color: silver;
+
+}
