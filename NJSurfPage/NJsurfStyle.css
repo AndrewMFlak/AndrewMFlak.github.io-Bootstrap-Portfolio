@@ -1,6 +1,12 @@
-.container {
-    background-image: url("https://www.surfertoday.com/images/stories/swelllines.jpg");
-    background-size: 100%;
+body {
+    background-image: url("../assets/images/ocean_water.jpg");
+}
+.navbar {
+    background-color: silver;
+}
+.header {
+    background-color: silver;
+    border-bottom: 3px solid gray;
 }
 h1 {
     font-size: 36px;
