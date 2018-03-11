@@ -7,6 +7,10 @@ body {
 .header {
     background-color: silver;
     border-bottom: 3px solid gray;
+    height: 60px;
+    padding: 20px 0 0 0;
+    color: rgba(36, 108, 167, 0.384);
+    text-align: center;
 }
 h1 {
     font-size: 36px;
