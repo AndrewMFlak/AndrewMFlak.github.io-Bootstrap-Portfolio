@@ -1,24 +1,145 @@
 
 
-.headerRow {
+.row.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .row.no-gutters > [class^="col-"],
+  .row.no-gutters > [class*=" col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  } 
+.navbar {
     background-color: silver;
+    height: 60px;
+    border-bottom: 3px solid gray;
+    margin-bottom: 24px;
+
 }
-.page-header {
+body {
+    background: url("assets/images/brickwall.jpg");
+    box-sizing: border-box;
+}
+.container2 {
+    margin: 0 40px 0 40px;
+}
+.crimsonName {
     background-color: crimson;
-    height: 32px;
-    border: 6px solid gray;
+    height: 60px;
     color: white;
+    padding: 14px 0 0 60px;
+    font-size: 24px;
+    border-bottom: 3px solid gray;
+    margin-bottom: 24px;
+}
+.silverHeader {
+    background-color: silver;
+    height: 60px;
+    border-bottom: 3px solid gray;
+    margin-bottom: 24px;
+}
+.links {
+    padding: 20px 0 0 530px;
 
 }
 .aboutMe {
+    clear: both;
+    overflow: auto;
     text-align: justify;
     background-color: silver;
+    padding: 20px;
+    margin: 20px 0 0 20px;
+    border: 3px solid gray;
 }
+.portContainer {
+    clear: both;
+    overflow: auto;
+    padding: 20px;
+    margin: 20px 0 0 20px;
+    background-color: silver;
+    border: 3px solid gray;
+}
+.Portfolio {
+    clear: both;
+    overflow: auto;
+    text-align: justify;
+    background-color: silver;
+    color: white;
+    padding: 20px;
+    margin: 20px 0 0 0;
+    border: 3px solid gray;
+    height: 860px;
+}
+.portColumn1{
+    clear: both;
+    overflow: auto;
+    border: 3px solid gray;
+    text-align: center;
+}
+.portColumn2{
+    clear: both;
+    overflow: auto;
+    border: 3px solid gray;
+    text-align: center;
+    position: relative;
+}
+.thumbnail {
+    clear: both;
+    overflow: auto;
+    border: 3px solid gray;
+    height: 233.5px;
+    width: 178px;
+    text-align: center;
+}
+.caption {
+    padding: 20px 0 20px 0;
+
+}
+.aboutMeCont {
+    clear: both;
+    overflow: auto;
+    padding: 20px;
+    background-color: silver;
+    border: 3px solid gray;
+}
+
 h1 {
     font-weight: bold;
 
 }
 .contactInfo {
     background-color: silver;
+    padding: 20px;
+    margin: 20px 0 0 0;
+    border: 3px solid gray;
+    text-align: center;
+    color: white;
 
+}
+.linkedInPhoto {
+    border: 3px solid gray;
+    width: 186px;
+}
+.imageParagraph {
+    float: left;
+}
+.container3 {
+    clear: both;
+    overflow: auto;
+    position: bottom;
+    border-top: 3px solid gray;
+    text-align: center;
+    padding: 20px 0 0 0;
+    font-size: 10px;
+}
+.form-area {
+    clear: both;
+    overflow: auto;
+    background-color: silver;
+    border: 3px solid gray;
+    padding: 20px;
+    margin: 0 0 0 60px;
+}
+.form-group {
+    background-color: silver;
 }
